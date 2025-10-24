@@ -13,7 +13,7 @@ def create_board(size):
         if size != int(size): raise ValueError("The size must be an integer")
 
         for i in range(size):
-            # python allows you to multiply the array by an int and then concat
+            # multiply the array by an int and then concat
             row = ["~~"] * size
             matrix.append(row)
         return(matrix)
