@@ -75,24 +75,4 @@ def main():
         except ValueError as e:
             print(f"❌ Error: {e}. Try again.")
 
-    # turno = 1
-    # while True:
-    #     if turno == 1:
-    #         print("🌊 Tablero del Jugador 2 🌊")
-    #         mostrar_tablero(tablero_j2, ocultar_barcos=True)
-    #         disparar(tablero_j2, 1)
-    #         if not quedan_barcos(tablero_j2):
-    #             print("\n💀💥 ¡Jugador 1 hundió todos los barcos! 💥💀")
-    #             print("🏆 Jugador 1 GANA 🏆")
-    #             break
-    #         turno = 2
-    #     else:
-    #         print("🌊 Tablero del Jugador 1 🌊")
-    #         mostrar_tablero(tablero_j1, ocultar_barcos=True)
-    #         disparar(tablero_j1, 2)
-    #         if not quedan_barcos(tablero_j1):
-    #             print("\n💀💥 ¡Jugador 2 hundió todos los barcos! 💥💀")
-    #             print("🏆 Jugador 2 GANA 🏆")
-    #             break
-    #         turno = 1
 main()
